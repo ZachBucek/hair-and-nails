@@ -1,0 +1,1990 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+/**/
+/**/
+/* APPLY TO ALL FORMATS */
+/**/
+/**/
+
+/* CONTAINER */
+    .container {
+        margin-bottom: 200px;
+    }
+
+
+/* FONTS */
+
+    body {
+        font-family: Abel, sans-serif;
+    }
+
+
+/* IMAGES */
+
+    body img {
+        height: auto;
+    }
+
+
+/* LINKS */
+
+    a {
+        outline: 0;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+
+    .more-link {
+        display: none;
+    }
+
+/* FRONT-PAGE */
+
+    #h,
+    #plus,
+    #n {
+        overflow: auto;
+        position: absolute;
+    }
+
+    #plus:hover {
+        background-color: black;
+    }
+
+    #img_frontpage,
+    #nav_menu_frontpage ul {
+        float: left;
+    }
+
+    #nav_menu_frontpage ul li a {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+
+    #nav_menu_frontpage a:hover {
+        border-bottom: solid #00ffff 4px;
+    }
+
+    #address_frontpage a {
+        text-decoration: none;
+        color: black;
+        border-bottom: solid black 1px;
+    }
+
+    #address_frontpage a:hover {
+        border-bottom: none;
+    }
+
+
+/* LOGO */
+
+    #logo {
+        overflow: auto;
+        position: absolute;
+    }
+
+    #logo a {
+        text-decoration: none;
+    }
+
+    #logo img:hover {
+        border: solid #00ffff 4px;
+    }
+
+
+/* PATTERN HEADER */
+
+    #pattern_header {
+        float: left;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+
+/* PRIMARY NAV */
+
+    #selected a {
+        border-bottom: solid black 4px;
+    }
+
+    #nav_menu ul {
+        float:left;
+    }
+
+    #nav_menu ul li a {
+        text-decoration: none;
+        color:black;
+    }
+
+    #nav_menu ul li:hover {
+        background-color: #00ffff;
+    }
+
+    #nav_menu ul li:hover > ul {
+        display: block;
+    }
+
+    #nav_menu ul ul {
+        display: none;
+        position: absolute;
+        margin: 0;
+    }
+
+    #nav_menu ul ul li {
+        float: left;
+    }
+
+
+/* ABOUT IT */
+
+    #about-it a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #about-it a:hover {
+        border-bottom: solid black 1px;
+    }
+
+    #about-it img {
+        border: solid black 1px;
+    }
+
+
+/* EXHIBITIONS NAV */
+
+    .not_selected_exh a {
+        text-decoration: none;
+        color: lightgray;
+    }
+
+    #selected_exh a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #selected_exh a:hover {
+        border-bottom: solid black 1px;
+    }
+
+    .not_selected_exh a:hover {
+        color: black;
+    }
+
+    #nav_menu_exh ul {
+        float:left;
+    }
+
+    #nav_menu_exh ul li {
+        border-bottom: hidden;
+        list-style-type: none;
+    }
+
+
+/* EXHIBITIONS */
+    #gallery-1 .gallery-item img,
+    #gallery-2 .gallery-item img {
+        border: none;
+    }
+
+    #current-archive h4,
+    #upcoming-archive h4,
+    #past-archive h4,
+    #past-single h4 {
+        border-bottom: dashed black 1px;
+    }
+
+    #past-archive h4:hover {
+        border-bottom: none;
+    }
+
+    #current-archive .more-link:hover,
+    #upcoming-archive .more-link:hover {
+        border-bottom: solid black 1px;
+    }
+
+    #current-archive a,
+    #upcoming-archive a,
+    #past-archive a,
+    #past-single a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #past-single p a:hover,
+    #current-archive p a:hover,
+    #upcoming-archive p a:hover {
+        text-decoration: underline;
+    }
+
+    .gallery-caption {
+        text-align: left;
+    }
+
+    #past-archive .more-link,
+    #current-archive .more-link {
+        display: none;
+    }
+
+
+/* EVENTS */
+
+    #events-archive a,
+    #events-single a {
+        text-decoration: none;
+        color: black
+    }
+
+    #events-archive h4 {
+        border-bottom: dashed black 1px
+    }
+
+    #events-archive h4:hover {
+        border-bottom: none
+    }
+
+    #events-single h4 {
+        border-bottom: dashed black 1px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+
+/* PRESS */
+
+    #press a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #press a:hover {
+        text-decoration: underline;
+    }
+
+    #press h4 {
+        border-bottom: dashed black 1px;
+        font-size: 21px;
+    }
+
+    #press img {
+        margin-bottom: 4px;
+    }
+
+
+/* MAGAZINE */
+
+    #logo_mag_wrap {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #logo_mag {
+        position: fixed;
+    }
+
+    #magazine-archive article,
+    #magazine-single article {
+        float: left;
+        clear: both;
+    }
+
+    #magazine-archive a,
+    #magazine-single a,
+    #footer_mag_nav a {
+        text-decoration: none;
+        color: black
+    }
+
+    #magazine-archive .more-link:hover {
+        border-bottom: solid black 1px;
+    }
+
+    #magazine-archive h3 a:hover {
+        border-bottom: solid black 10px;
+    }
+
+    #footer_mag {
+        background-color: #00ffff;
+        width: 100%;
+        margin-bottom: 0;
+        padding:0;
+    }
+
+    #footer_mag_nav a:hover {
+        background-color: #00ffff;
+        border: none;
+    }
+
+    #magazine-archive .more-link {
+        display: none;
+    }
+
+
+/* BACK-TO-TOP*/
+
+    .back_to_top {
+        position: fixed;
+        color: black;
+        text-decoration: none;
+        display: none;
+        background-color: lightgray;
+    }
+
+    .back_to_top:hover {
+        background-color: white;
+        color: black;
+    }
+
+    .back_to_top a:visited {
+        background-color: lightgray;
+        color: black;
+    }
+
+    .back_to_top p {
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* INSTAGRAM */
+
+    #insta_HandN_front:hover,
+    #insta_OH_front:hover,
+    #insta_HandN:hover,
+    #insta_OH:hover,
+    #insta_HandN_mag:hover,
+    #insta_OH_mag:hover {
+        opacity: .5;
+    }
+
+
+/* FOOTER */
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+    #pattern_footer {
+        float: left;
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    #address_footer {
+        overflow: auto;
+        position: fixed;
+    }
+
+    footer a #address_footer {
+        color: black;
+    }
+
+    footer a #address_footer:hover {
+        background-color: white;
+    }
+
+
+/**/
+/**/
+/* MEDIA QUERIES */
+/**/
+/**/
+
+/**/
+/* DESKTOP */
+/**/
+@media (min-width: 1050px) {
+
+    /* FRONT-PAGE */
+    /* FRONT-PAGE H+N */
+
+    #h {
+        margin: 0 0 0 50.618px;
+    }
+
+    #plus {
+        margin: 80px 0 0 435px;
+    }
+
+    #n {
+        margin: 400px 0 0 763px;
+    }
+
+
+    /* FRONT-PAGE IMG */
+
+    #img_frontpage {
+        margin-left: 100px;
+    }
+
+
+    /* FRONT-PAGE NAV */
+
+    #nav_menu_frontpage ul {
+        position: relative;
+        margin-top: 200px
+    }
+
+    #nav_menu_frontpage ul li {
+        float: left;
+        font-size: 24px;
+        border-bottom: hidden;
+        list-style-type: none;
+        padding-left: 45px;
+        margin: 0;
+    }
+
+
+    /* FRONT-PAGE NAV SUB MENUS */
+
+    #nav_menu_frontpage ul ul {
+        display: none;
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #nav_menu_frontpage ul ul li {
+        float: none;
+        padding-left: 0
+    }
+
+    #nav_menu_frontpage ul li:hover > ul {
+        display: block;
+    }
+
+
+    /* FRONT-PAGE ADDRESS */
+    #address_frontpage {
+        font-size: 18px;
+        position: absolute;
+        margin: 500px 0 0 763px;
+    }
+
+
+    /* LOGO */
+
+    #logo {
+        margin: 95.651px 0 0 100px;
+    }
+
+
+    /* PATTERN HEADER */
+
+    #pattern_header {
+        max-height: 110px;
+    }
+
+
+    /* PRIMARY NAV */
+
+    #nav_menu ul {
+        margin: 0 0 0 350.605px;
+    }
+
+    #nav_menu ul li {
+        border-bottom: hidden;
+        list-style-type: none;
+        float: left;
+        font-size: 24px;
+        padding: 9px 0 0 45px;
+        margin: 0;
+    }
+
+
+    /* SUB-MENUS */
+
+    #nav_menu ul ul li {
+        padding: 9px 15px 0 0;
+    }
+
+
+    /* ABOUT-IT */
+
+    #about-it {
+        margin: 130px 0 0 100px;
+    }
+
+    #about-it img {
+        float: left;
+        max-width: 46.875%;
+        margin: 0 60px 30px 0;
+    }
+
+    #about-it p {
+        float: left;
+        font-size: 21px;
+        max-width: 31.25%;
+    }
+
+
+    /**/
+    /* CURRENT, UPCOMING, PAST, EVENTS, PRESS, MAGAZINE */
+    /**/
+
+    /* EXHIBITIONS NAV */
+    #nav_menu_exh ul {
+        margin: 0 0 0 505.605px;
+    }
+
+    #nav_menu_exh ul li {
+        float: left;
+        font-size: 24px;
+        padding: 9px 0 0 15px;
+        margin: 0;
+    }
+
+
+    /* EXHIBITIONS CURRENT */
+    /* EXHIBITIONS CURRENT-ARCHIVE */
+
+    #current-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #current-archive h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        max-width: 95%;
+    }
+
+    #current-archive .gallery {
+        clear: both;
+    }
+
+    #current-archive img {
+        float: left;
+        max-width: 85%;
+    }
+
+    #current-archive img.attachment-post-thumbnail {
+        float: left;
+        max-width: 45%;
+        margin-right: 60px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    #current-archive article p {
+        float: left;
+        font-size: 21px;
+        max-width: 45%;
+        margin: 30px 30px 30px 0;
+    }
+
+
+    /* EXHIBITIONS UPCOMING */
+    /* EXHIBITIONS UPCOMING-ARCHIVE */
+
+    #upcoming-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #upcoming-archive h4 {
+        clear: both;
+        font-size: 24px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    #upcoming-archive img {
+        float: left;
+        margin: 0 60px 30px 0;
+    }
+
+    #upcoming-archive article p {
+        float: left;
+        font-size: 21px;
+        max-width: 65%;
+        margin-bottom: 30px;
+        clear: both;
+    }
+
+
+    /* EXHIBITIONS PAST */
+    /* EXHIBITIONS ARCHIVE-PAST */
+
+    #past-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #past-archive h4,
+    #past-archive img,
+    #past-archive article {
+        max-width: 400px;
+    }
+
+    #past-archive h4 {
+        font-size: 21px;
+        margin: 0;
+    }
+
+    #past-archive article {
+        float: left;
+        margin-right: 5.46875%;
+        height: 530px;
+    }
+
+    #past-archive img {
+        margin-bottom: 5px;
+    }
+
+
+    /* EXHIBITIONS SINGLE-PAST */
+
+    #past-single {
+        margin: 130px 0 0 100px;
+    }
+
+    #past-single h4 {
+        font-size: 28px;
+        max-width: 95%;
+    }
+
+    #past-single img {
+        float: left;
+        max-width: 85%;
+        margin-right: 100%;
+    }
+
+    #past-single .gallery-caption {
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    #past-single article p {
+        font-size: 21px;
+        max-width: 62.5%;
+        margin: 30px 0 0 0;
+    }
+
+
+    /* EVENTS */
+    /* ARCHIVE-EVENTS */
+
+    #events-archive {
+        margin: 100px 0 0 100px;
+    }
+
+    #events-archive h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        max-width: 95%;
+    }
+
+    #events-archive img {
+        max-width: 300px;
+        margin-bottom: 60px
+    }
+
+
+    /* SINGLE-EVENTS */
+
+    #events-single {
+        margin: 100px 0 0 100px;
+    }
+
+    #events-single h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+        max-width: 95%;
+    }
+
+    #events-single img {
+        max-width: 500px;
+    }
+
+    #events-single p {
+        font-size: 21px;
+        max-width: 800px;
+        margin: 30px 0 0 0;
+    }
+
+
+    /* PRESS */
+    /* ARCHIVE-PRESS */
+
+    #press {
+        margin: 100px 0 0 100px;
+    }
+
+    #press h4 {
+        max-width: 300px;
+        margin: 0;
+    }
+
+    #press article {
+        float: left;
+        height: 500px;
+        font-size: 18px;
+        max-width: 300px;
+        margin-right: 60px;
+    }
+
+    #press img {
+        float: left;
+        max-width: 300px;
+    }
+
+
+    /* MAGAZINE */
+    /* MAGAZINE LOGO */
+
+    #logo_mag_mobile {
+        display: none;
+    }
+
+    /* MAGAZINE-ARCHIVE */
+
+    #magazine-archive {
+        margin: 130px 0 0 360px;
+    }
+
+    #magazine-archive h3 {
+        margin-bottom: 30px;
+    }
+
+    #magazine-archive article {
+        font-size: 18px;
+        max-width: 600px;
+        margin-bottom: 100px;
+    }
+
+    /*#magazine-archive img {*/
+        /*max-width: 90%;*/
+    /*}*/
+
+
+    /* MAGAZINE-SINGLE */
+
+    #magazine-single {
+        margin: 130px 0 0 360px;
+    }
+
+    #magazine-single h3 {
+        margin-bottom: 30px;
+    }
+
+    #magazine-single article {
+        float: left;
+        font-size: 18px;
+        max-width: 600px;
+        margin-bottom: 100px;
+    }
+
+
+    /* MAGAZINE-FOOTER */
+
+    #footer_mag_nav {
+        margin-left: 5px;
+    }
+
+    #footer_mag_nav a {
+        font-size: 21px;
+        background-color: white;
+        border: solid black 1px;
+        padding: 2px 5px 8px 5px;
+    }
+
+
+    /* BACK-TO-TOP */
+
+    .back_to_top {
+        bottom: 1em;
+        right: .5em;
+        font-size: 28px;
+        padding: 0 8px 0 8px;
+    }
+
+
+    /* INSTAGRAM */
+
+    #insta_HandN,
+    #insta_OH {
+        position: fixed;
+    }
+
+    #insta_HandN img,
+    #insta_OH img {
+        max-width: 40px;
+    }
+
+    #insta_HandN {
+        bottom: 3em;
+        left: 1em;
+    }
+
+    #insta_OH {
+        bottom: 6em;
+        left: 1em;
+    }
+
+
+    /* INSTAGRAM MAG */
+
+    #insta_HandN_mag,
+    #insta_OH_mag {
+        position: absolute;
+    }
+
+    #insta_HandN_mag img,
+    #insta_OH_mag img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_mag {
+        top: .5em;
+        left: 13em;
+    }
+
+    #insta_OH_mag {
+        top: 3.5em;
+        left: 13em;
+    }
+
+
+    /* INSTAGRAM FRONT */
+
+    #insta_HandN_front,
+    #insta_OH_front {
+        position: fixed;
+    }
+
+    #insta_HandN_front img,
+    #insta_OH_front img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_front {
+        bottom: .5em;
+        left: 1em;
+    }
+
+    #insta_OH_front {
+        bottom: 3.5em;
+        left: 1em;
+    }
+
+
+    /* COPYRIGHT */
+
+    #copyright_front {
+        margin-left: 100px;
+    }
+
+
+    /* FOOTER */
+
+    #footer_main {
+        max-height: 28px;
+    }
+
+    #pattern_footer {
+        max-height: 28px;
+    }
+
+    #address_footer {
+        font-size: 18px;
+        background-color: #00ffff;
+        right: 4em;
+        padding: 0 15px 0 15px;
+    }
+}
+
+
+/**/
+/* TABLET */
+/**/
+@media (min-width: 760px) and (max-width: 1050px) {
+
+    /* CONTAINER */
+
+    .container {
+        margin-bottom: 150px;
+    }
+
+
+    /* FRONT-PAGE */
+    /* FRONT-PAGE H+N */
+
+    #h {
+        margin: 0;
+    }
+
+    #plus {
+        margin: 80px 0 0 360px;
+    }
+
+    #plus:hover {
+        background-color: black;
+    }
+
+    #n {
+        margin: 400px 0 0 600px;
+    }
+
+
+    /* FRONT-PAGE IMG */
+
+    #img_frontpage {
+        margin-left: 70px;
+    }
+
+    /* FRONT-PAGE NAV */
+
+    #nav_menu_frontpage ul {
+        position: relative;
+        margin-top: 200px;
+    }
+
+    #nav_menu_frontpage ul li {
+        float: none;
+        font-size: 21px;
+        border-bottom: hidden;
+        list-style-type: none;
+        padding-left: 30px;
+        margin: 0;
+    }
+
+
+    /* FRONT-PAGE NAV SUB MENUS */
+
+    #nav_menu_frontpage ul ul {
+        display: none;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    #nav_menu_frontpage ul ul li {
+        float: left;
+        padding: 0 0 0 15px
+    }
+
+    #nav_menu_frontpage ul ul li a:hover {
+        border: none;
+        background-color: #00ffff;
+    }
+
+    #nav_menu_frontpage ul li:hover > ul {
+        display: block;
+        clear: both;
+    }
+
+
+    /* FRONT-PAGE ADDRESS */
+
+    #address_frontpage {
+        font-size: 18px;
+        position: absolute;
+        margin: 500px 0 0 600px;
+    }
+
+
+    /* LOGO */
+
+    #logo {
+        margin: 50px 0 0 100px;
+    }
+
+
+    /* PATTERN */
+
+    #pattern_header {
+        max-height: 110px;
+    }
+
+
+    /* PRIMARY NAV (ABOUT IT, EVENTS, PRESS) */
+
+    #nav_menu ul {
+        margin: 0 0 0 70px;
+    }
+
+    #nav_menu ul li {
+        border-bottom: hidden;
+        list-style-type: none;
+        float: left;
+        font-size: 21px;
+        padding: 9px 0 0 30px; margin: 0;
+    }
+
+
+    /* SUB-MENUS */
+
+    #nav_menu ul ul li {
+        padding: 9px 15px 0 0;
+    }
+
+
+    /* ABOUT-IT */
+
+    #about-it {
+        margin: 100px 0 0 100px;
+    }
+
+    #about-it img {
+        float: left;
+        max-width: 46.875%;
+        margin: 0 60px 30px 0;
+    }
+
+    #about-it p {
+        float: left;
+        font-size: 18px;
+        max-width: 31.25%;
+    }
+
+
+    /**/
+    /* CURRENT, UPCOMING, PAST, EVENTS, PRESS, MAGAZINE */
+    /**/
+
+    /* EXHIBITIONS NAV */
+
+    #nav_menu_exh ul {
+        margin: 0 0 0 185px;
+    }
+
+    #nav_menu_exh ul li {
+        float: left;
+        font-size: 21px;
+        padding: 9px 0 0 15px;
+        margin: 0;
+    }
+
+
+    /* EXHIBITIONS CURRENT */
+    /* EXHIBITIONS CURRENT-ARCHIVE */
+
+    #current-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #current-archive h4 {
+        font-size: 24px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    #current-archive img {
+        float: left;
+        max-width: 85%;
+        margin-right: 100%;
+    }
+
+    #current-archive img.attachment-post-thumbnail {
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    #current-archive article p {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    #current-archive .more-link {
+        font-size: 16px;
+    }
+
+
+    /* EXHIBITIONS UPCOMING */
+    /* EXHIBITIONS UPCOMING-ARCHIVE */
+
+    #upcoming-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #upcoming-archive h4 {
+        clear: both;
+        font-size: 24px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    #upcoming-archive img {
+        float: left;
+        margin: 0 60px 30px 0;
+    }
+
+    #upcoming-archive article p {
+        float: left;
+        font-size: 18px;
+        max-width: 65%;
+        margin-bottom: 30px;
+        clear: both;
+    }
+
+
+    /* EXHIBITIONS PAST */
+    /* EXHIBITIONS ARCHIVE-PAST */
+
+    #past-archive {
+        margin: 130px 0 0 100px;
+    }
+
+    #past-archive h4,
+    #past-archive img,
+    #past-archive article {
+        max-width: 400px;
+    }
+
+    #past-archive h4 {
+        font-size: 21px;
+    }
+
+    #past-archive article {
+        float: left;
+        margin-right: 5.46875%;
+        height: 530px
+    }
+
+    #past-archive img {
+        margin-bottom: 5px;
+    }
+
+
+    /* EXHIBITIONS SINGLE-PAST */
+    #past-single {
+        margin: 130px 0 0 100px;
+    }
+
+    #past-single h4 {
+        font-size: 24px;
+        max-width: 85%;
+    }
+
+    #past-single img {
+        float: left;
+        max-width: 85%;
+        margin-right: 100%;
+    }
+
+    #past-single .gallery-caption {
+        font-size: 12px;
+    }
+
+    #past-single article p {
+        font-size: 18px;
+        max-width: 85%;
+        margin: 30px 0 0 0;
+    }
+
+
+    /* EVENTS */
+    /* ARCHIVE-EVENTS */
+
+    #events-archive {
+        margin: 100px 0 0 100px;
+    }
+
+    #events-archive h4 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        max-width: 90%;
+    }
+
+    #events-archive img {
+        max-width: 50%;
+        margin-bottom: 60px;
+    }
+
+
+    /* SINGLE-EVENTS */
+
+    #events-single {
+        margin: 100px 0 0 100px;
+    }
+
+    #events-single h4 {
+        font-size: 24px;
+        margin-bottom: 30px;
+        max-width: 90%;
+    }
+
+    #events-single img {
+        max-width: 90%;
+        margin: 30px 0 0 0;
+    }
+
+    #events-single p {
+        font-size: 18px;
+        max-width: 90%;
+        margin: 30px 0 0 0;
+    }
+
+
+    /* PRESS */
+    /* ARCHIVE-PRESS */
+
+    #press {
+        margin: 100px 0 0 100px;
+    }
+
+    #press h4 {
+        max-width: 75%;
+    }
+
+    #press article {
+        font-size: 18px;
+        max-width: 75%;
+        margin-bottom: 60px;
+    }
+
+    #press p {
+        margin-bottom: 15px;
+    }
+
+    #press img {
+        max-width: 75%;
+        margin-bottom: 5px;
+    }
+
+
+    /* MAGAZINE */
+    /* MAGAZINE LOGO */
+
+    #logo_mag img {
+        max-width: 130px;
+    }
+
+    #logo_mag_mobile {
+        display: none;
+    }
+
+
+    /* MAGAZINE-ARCHIVE */
+
+    #magazine-archive {
+        margin: 130px 0 0 25%;
+    }
+
+    #magazine-archive h3 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    #magazine-archive article {
+        font-size: 18px;
+        max-width: 60%;
+        margin-bottom: 100px;
+    }
+
+    /*#magazine-archive img {*/
+        /*max-width: 90%;*/
+    /*}*/
+
+
+    /* MAGAZINE-SINGLE */
+
+    #magazine-single {
+        margin: 130px 0 0 25%;
+    }
+
+    #magazine-single h3 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    #magazine-single article {
+        font-size: 18px;
+        max-width: 60%;
+        margin-bottom: 100px;
+    }
+
+
+    /* MAGAZINE-FOOTER */
+
+    #footer_mag_nav {
+        margin-left: 5px;
+    }
+
+    #footer_mag_nav a {
+        font-size: 21px;
+        background-color: white;
+        border: solid black 1px;
+        padding: 2px 5px 8px 5px
+    }
+
+
+    /* BACK-TO-TOP */
+
+    .back_to_top {
+        bottom: 1em;
+        right: .5em;
+        font-size: 24px;
+        padding: 0 5px 0 5px;
+    }
+
+
+    /* INSTAGRAM */
+
+    #insta_HandN,
+    #insta_OH {
+        position: fixed;
+    }
+
+    #insta_HandN img,
+    #insta_OH img {
+        max-width: 40px;
+    }
+
+    #insta_HandN {
+        bottom: 3em;
+        left: 1em;
+    }
+
+    #insta_OH {
+        bottom: 6em;
+        left: 1em;
+    }
+
+
+    /* INSTAGRAM MAG */
+
+    #insta_HandN_mag,
+    #insta_OH_mag {
+        position: absolute;
+    }
+
+    #insta_HandN_mag img,
+    #insta_OH_mag img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_mag {
+        top: .5em;
+        left: 10em;
+    }
+
+    #insta_OH_mag {
+        top: 3.5em;
+        left: 10em;
+    }
+
+
+    /* INSTAGRAM FRONT */
+
+    #insta_HandN_front,
+    #insta_OH_front {
+        position: fixed;
+    }
+
+    #insta_HandN_front img,
+    #insta_OH_front img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_front {
+        bottom: .5em;
+        left: 1em;
+    }
+
+    #insta_OH_front {
+        bottom: 3.5em;
+        left: 1em;
+    }
+
+
+    /* COPYRIGHT */
+    #copyright_front {
+        margin-left: 70px;
+    }
+
+
+    /* FOOTER */
+
+    #footer_main {
+        max-height: 28px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #pattern_footer {
+        max-height: 28px;
+    }
+
+    #address_footer {
+        font-size: 18px;
+        background-color: #00ffff;
+        right: 4em;
+        padding: 0 15px 0 15px;
+    }
+}
+
+
+/**/
+/* MOBILE */
+/**/
+@media (min-width: 320px) and (max-width: 760px) {
+
+    /* CONTAINER */
+
+    .container {
+        margin-bottom: 100px;
+    }
+
+
+    /* FRONT-PAGE */
+    /* FRONT-PAGE H+N */
+
+    #h, #plus, #n {
+        display: none;
+    }
+
+
+    /* FRONT-PAGE IMG */
+
+    #img_frontpage {
+        max-width: 260px;
+    }
+
+
+    /* FRONT-PAGE NAV */
+
+    #nav_menu_frontpage ul {
+        position: absolute;
+        margin-top: 40px;
+        background-color: white;
+        border: solid black 4px;
+        padding: 5px 15px 5px 0;
+    }
+
+    #nav_menu_frontpage ul li {
+        float: none;
+        font-size: 18px;
+        border-bottom: hidden;
+        list-style-type: none;
+        padding-left: 15px;
+        margin: 0;
+    }
+
+
+    /* FRONT-PAGE NAV SUB MENUS */
+
+    #nav_menu_frontpage ul ul {
+        display: none;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        border: none;
+    }
+
+    #nav_menu_frontpage ul ul li {
+        float: left;
+        padding: 0 0 0 15px
+    }
+
+    #nav_menu_frontpage ul ul li a:hover {
+        border: none;
+        background-color: #00ffff;
+    }
+
+    #nav_menu_frontpage ul li:hover > ul {
+        display: block;
+        clear: both;
+    }
+
+
+    /* FRONT-PAGE ADDRESS */
+
+    #address_frontpage {
+        font-size: 16px;
+        position: absolute;
+        margin-top: 370px;
+        background-color: white;
+        border: solid black 4px;
+        padding: 5px 15px 5px 15px;
+        max-width: 160px;
+    }
+
+
+    /* LOGO */
+
+    #logo {
+        margin: 0 0 0 3.75%;
+    }
+    #logo img {
+        max-width: 75%;
+    }
+
+
+    /* PATTERN */
+
+    #pattern_header {
+        max-height: 45px;
+    }
+
+
+    /* PRIMARY NAV (ABOUT IT, EVENTS, PRESS) */
+
+    #nav_menu ul {
+        position: absolute;
+        background-color: white;
+        margin: 55px 0 0 3.75%;
+    }
+
+    #nav_menu ul li {
+        border-bottom: hidden;
+        list-style-type: none;
+        float: none;
+        font-size: 18px;
+        padding: 5px 0 5px 0;
+        margin: 0;
+    }
+
+
+    /* SUB-MENUS */
+
+    #nav_menu ul ul {
+        padding: 15px;
+        border: dashed black 1px;
+    }
+
+    #nav_menu ul ul li {
+        padding: 9px 15px 0 0;
+    }
+
+
+    /* ABOUT-IT */
+
+    #about-it {
+        margin: auto;
+        padding-top: 180px;
+    }
+
+    #about-it img {
+        float: none;
+        display: block;
+        max-width: 90%;
+        margin-left: 3.75%;
+    }
+
+    #about-it p {
+        float: none;
+        display: block;
+        font-size: 18px;
+        max-width: 90%;
+        margin-left: 3.75%;
+        padding-top: 30px;
+    }
+
+
+    /* EXHIBITIONS NAV */
+
+    #nav_menu_exh ul {
+        margin: 48px 0 0 140px;
+    }
+
+    #nav_menu_exh ul li {
+        float: none;
+        font-size: 18px;
+        padding: 5px 0 5px 0;
+        margin: 0;
+    }
+
+
+    /* EXHIBITIONS CURRENT */
+    /* EXHIBITIONS CURRENT-ARCHIVE */
+
+    #current-archive {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #current-archive img {
+        max-width: 95%;
+        margin-left: 3.75%;
+    }
+
+    #current-archive h4,
+    #current-archive img.attachment-post-thumbnail {
+        max-width: 95%;
+        margin-left: 3.75%;
+    }
+
+    #current-archive h4 {
+        font-size: 21px;
+    }
+
+    #current-archive article {
+        float: none;
+        display: block;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    #current-archive article p {
+        max-width: 90%;
+        margin-left: 3.75%;
+    }
+
+
+    /* EXHIBITIONS UPCOMING */
+    /* EXHIBITIONS UPCOMING-ARCHIVE */
+
+    #upcoming-archive {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #upcoming-archive h4 {
+        font-size: 21px;
+        max-width: 95%;
+        margin: 0 0 15px 3.75%;
+    }
+
+    #upcoming-archive img {
+        float: none;
+        display: block;
+        max-width: 95%;
+        margin-left: 3.75%;
+        padding-bottom: 15px;
+    }
+
+    #upcoming-archive article p {
+        float: none;
+        display: block;
+        max-width: 90%;
+        font-size: 18px;
+        margin-left: 3.75%;
+        margin-bottom: 60px;
+    }
+
+
+    /* EXHIBITIONS PAST */
+    /* EXHIBITIONS ARCHIVE-PAST */
+
+    .gallery-caption {
+        font-size: 11px;
+        margin: 0;
+        padding: 0 0 0 .75em;
+    }
+
+    #past-archive {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #past-archive h4,
+    #past-archive img,
+    #past-archive article {
+        max-width: 95%;
+    }
+
+    #past-archive h4 {
+        font-size: 21px;
+    }
+
+    #past-archive article {
+        float: none;
+        display: block;
+        max-width: 90%;
+        margin-left: 3.75%;
+        padding-bottom: 15px;
+    }
+
+
+    /* EXHIBITIONS SINGLE-PAST */
+
+    #past-single {
+        padding-top: 245px;
+    }
+
+    #past-single h4 {
+        font-size: 21px;
+    }
+
+    #past-single img {
+        max-width: 95%;
+    }
+
+    #past-single article {
+        float: left;
+        max-width: 90%;
+        margin-left: 3.75%;
+        padding-bottom: 15px;
+    }
+
+    #past-single article p {
+        font-size: 18px;
+    }
+
+
+    /* EVENTS */
+    /* ARCHIVE-EVENTS */
+
+    #events-archive {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #events-archive h4 {
+        font-size: 21px;
+        margin-bottom: 15px;
+        max-width: 95%;
+    }
+
+    #events-archive img {
+        max-width: 95%;
+        margin-bottom: 45px;
+    }
+
+    #events-archive article {
+        float: none;
+        display: block;
+        max-width: 90%;
+        margin-left: 3.75%;
+    }
+
+
+    /* SINGLE-EVENTS */
+
+    #events-single {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #events-single h4 {
+        font-size: 21px;
+        margin-bottom: 15px;
+        max-width: 95%;
+    }
+
+    #events-single img {
+        max-width: 95%;
+    }
+
+    #events-single article {
+        float: none;
+        display: block;
+        max-width: 90%;
+        margin-left: 3.75%;
+    }
+
+    #events-single p {
+        font-size: 18px;
+    }
+
+
+    /* PRESS */
+    /* ARCHIVE-PRESS */
+
+    #press {
+        margin: auto;
+        padding-top: 245px;
+    }
+
+    #press h4 {
+        max-width: 95%;
+    }
+
+    #press article {
+        float: none;
+        display: block;
+        font-size: 18px;
+        max-width: 90%;
+        margin-left: 3.75%;
+        margin-bottom: 40px;
+    }
+
+    #press img {
+        float: none;
+        display: block;
+        max-width: 95%;
+        margin-bottom: 5px;
+    }
+
+
+    /* MAGAZINE */
+    /* MAGAZINE LOGO */
+
+    #logo_mag_wrap,
+    #logo_mag img {
+        display: none;
+    }
+
+    #logo_mag_mobile {
+        display: block;
+        margin-bottom: 100px;
+    }
+
+    #logo_mag_mobile img {
+        max-width: 320px;
+    }
+
+
+    /* MAGAZINE-ARCHIVE */
+
+    #magazine-archive {
+        margin: auto;
+    }
+
+    #magazine-archive h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    #magazine-archive article {
+        float: none;
+        display: block;
+        font-size: 18px;
+        max-width: 90%;
+        margin: 60px 0 60px 3.75%;
+    }
+
+    #magazine-archive img {
+        float: none;
+        display: block;
+        max-width: 95%;
+    }
+
+
+    /* MAGAZINE-SINGLE */
+
+    #magazine-single {
+        margin: auto;
+    }
+
+    #magazine-single h3 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    #magazine-single article {
+        float: none;
+        display: block;
+        font-size: 18px;
+        max-width: 90%;
+        margin: 30px 0 0 3.75%;
+    }
+
+    #magazine-single img {
+        float: none;
+        display: block;
+        max-width: 95%;
+    }
+
+
+    /* MAGAZINE-FOOTER */
+
+    #footer_mag_nav {
+        margin-left: 4px;
+    }
+
+    #footer_mag_nav a {
+        font-size: 24px;
+        background-color: white;
+        border: solid black 1px;
+        padding: 2px 4px 8px 4px;
+    }
+
+
+    /* BACK-TO-TOP */
+
+    .back_to_top {
+        display: none;
+    }
+
+
+    /* INSTAGRAM */
+
+    #insta_HandN,
+    #insta_OH {
+        position: absolute;
+    }
+
+    #insta_HandN img,
+    #insta_OH img {
+        max-width: 40px;
+    }
+
+    #insta_HandN {
+        top: 4em;
+        right: 1em;
+    }
+
+    #insta_OH {
+        top: 7.5em;
+        right: 1em;
+    }
+
+
+    /* INSTAGRAM MAG */
+
+    #insta_HandN_mag,
+    #insta_OH_mag {
+        position: absolute;
+    }
+
+    #insta_HandN_mag img,
+    #insta_OH_mag img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_mag {
+        top: 8em;
+        left: 1em;
+    }
+
+    #insta_OH_mag {
+        top: 11.5em;
+        left: 1em;
+    }
+
+
+    /* INSTAGRAM FRONT */
+
+    #insta_HandN_front img,
+    #insta_OH_front img {
+        max-width: 40px;
+    }
+
+    #insta_HandN_front {
+        margin-bottom: .5em;
+        margin-left: 1em;
+    }
+
+    #insta_OH_front {
+        margin-bottom: 3.5em;
+        margin-left: 1em;
+    }
+
+
+    /* COPYRIGHT */
+
+    #copyright_front {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+
+    /* FOOTER */
+
+    #footer_main {
+        max-height: 28px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #pattern_footer {
+        max-height: 28px;
+    }
+
+    #address_footer {
+        font-size: 18px;
+        background-color: #00ffff;
+        left: 3.75%;
+        padding: 0 15px 0 15px;
+    }
+}
+
+
+
