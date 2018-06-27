@@ -1,0 +1,11 @@
+/*
+Theme Name: Hair and Nails
+Author: Zach Bucek
+Description: Custom theme for Hair and Nails Gallery, South Minneapolis, U.S.
+Version: 5
+*/
+@import "css/normalize.css";
+@import "css/slicknav.css";
+@import "css/skeleton.css";
+@import "css/jquery-ui.min.css";
+@import "css/layout.css";
